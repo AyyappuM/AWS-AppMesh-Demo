@@ -1,0 +1,8 @@
+**/.terraform.lock.hcl
+**/.terraform
+**/terraform.tfstate
+**/terraform.tfstate.backup
+app/ServiceA/bin/*
+app/ServiceA/obj/*
+app/ServiceB/bin/*
+app/ServiceB/obj/*
