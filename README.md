@@ -1,11 +1,15 @@
 # AWS-AppMesh-Demo
 AWS-AppMesh-Demo
 
-* This set up will work with trusted access disabled for RAM service in AWS Organizations.
+Note: This set up will work with trusted access disabled for RAM service in AWS Organizations.
 
-cd terraform
+![image](https://github.com/user-attachments/assets/a4992929-e788-47b9-9ff5-7c61948c5f57)
+
+Run the following commands to deply the infra:
 
 ```
+cd terraform
+
 terraform apply --auto-approve \
 -var="mesh_account_number=<a1_account_number>" \
 -var="service_a_account_number=<a2_account_number>" \
