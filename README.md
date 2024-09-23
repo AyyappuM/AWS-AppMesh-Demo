@@ -10,6 +10,8 @@ Run the following commands to deply the infra:
 ```
 cd terraform
 
+terraform init
+
 terraform apply --auto-approve \
 -var="mesh_account_number=<a1_account_number>" \
 -var="service_a_account_number=<a2_account_number>" \
