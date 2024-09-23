@@ -10,5 +10,5 @@ resource "aws_route53_record" "all" {
   name    = "*.${aws_route53_zone.simpleapp_mesh_local.name}"
   type    = "A"
   ttl     = "300"
-  records = ["1.2.3.4"]
+  records = ["10.10.10.10"]
 }
